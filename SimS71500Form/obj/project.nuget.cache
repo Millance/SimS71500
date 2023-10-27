@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "KLDdEjUznzpV9iiPBOI/oaBkUEE9rc4OMcMvhaqTU35snF0jb2zf+8uXZ84TTnECYGwamNw6YQmeThGc2kn7mQ==",
+  "success": true,
+  "projectFilePath": "D:\\WorkSpace\\Automation\\SimS71500\\SimS71500Form\\SimS71500Form.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lukai\\.nuget\\packages\\s7netplus\\0.20.0\\s7netplus.0.20.0.nupkg.sha512"
+  ],
+  "logs": []
+}

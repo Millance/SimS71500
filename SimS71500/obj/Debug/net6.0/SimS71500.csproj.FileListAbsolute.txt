@@ -1,0 +1,17 @@
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\SimS71500.exe
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\SimS71500.deps.json
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\SimS71500.runtimeconfig.json
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\SimS71500.dll
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\SimS71500.pdb
+D:\WorkSpace\Automation\SimS71500\SimS71500\bin\Debug\net6.0\S7.Net.dll
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.csproj.AssemblyReference.cache
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.AssemblyInfoInputs.cache
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.AssemblyInfo.cs
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.csproj.CoreCompileInputs.cache
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.csproj.CopyComplete
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.dll
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\refint\SimS71500.dll
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.pdb
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\SimS71500.genruntimeconfig.cache
+D:\WorkSpace\Automation\SimS71500\SimS71500\obj\Debug\net6.0\ref\SimS71500.dll

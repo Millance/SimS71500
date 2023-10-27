@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimS71500", "SimS71500\SimS71500.csproj", "{BE455D02-9E68-4FC9-9CFE-957DB80887DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimS71500Form", "SimS71500Form\SimS71500Form.csproj", "{F1462888-6CA4-40B9-9162-427F5B18393B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE455D02-9E68-4FC9-9CFE-957DB80887DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE455D02-9E68-4FC9-9CFE-957DB80887DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE455D02-9E68-4FC9-9CFE-957DB80887DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE455D02-9E68-4FC9-9CFE-957DB80887DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1462888-6CA4-40B9-9162-427F5B18393B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1462888-6CA4-40B9-9162-427F5B18393B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1462888-6CA4-40B9-9162-427F5B18393B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1462888-6CA4-40B9-9162-427F5B18393B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF54AF14-09F6-443C-B268-36FF9180E93F}
+	EndGlobalSection
+EndGlobal
