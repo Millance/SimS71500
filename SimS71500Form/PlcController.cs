@@ -1,4 +1,5 @@
 ﻿using S7.Net;
+using System.Net.NetworkInformation;
 using System.Text;
 using static SimS71500Form.Responses;
 
@@ -15,23 +16,36 @@ namespace SimS71500Form
             get { return myPlc; }
         }
 
-        public void Connect(CpuType cpuType, string ipAddress, short rack, short slot)
+        public async Task Connect(CpuType cpuType, string ipAddress, short rack, short slot)
         {
+            // 检查PLC是否为null或未连接
             if (plc == null || plc.IsConnected == false)
             {
                 try
                 {
+                    // 创建Ping对象以检查PLC的可达性
+                    Ping ping = new Ping();
+                    // 使用异步方式发送Ping请求
+                    PingReply reply = await ping.SendPingAsync(ipAddress);
+                    // 如果Ping请求失败或PLC不可达，抛出异常
+                    if (reply == null || reply.Status != IPStatus.Success)
+                    {
+                        throw new Exception("PLC通讯失败");
+                    }
+
                     // 初始化PLC连接
                     plc = new Plc(cpuType, ipAddress, rack, slot);
-                    plc.Open();
+                    // 异步方式打开PLC连接
+                    await plc.OpenAsync();
                 }
                 catch (Exception ex)
                 {
-                    // 处理连接错误
+                    // 处理连接错误并抛出异常
                     throw new Exception("PLC连接错误: " + ex.Message);
                 }
             }
         }
+
 
         public void Disconnect()
         {

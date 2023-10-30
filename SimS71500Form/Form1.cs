@@ -30,11 +30,12 @@ namespace SimS71500Form
             }
         }
 
-        private void btnConnPlc_Click(object sender, EventArgs e)
+        private async void btnConnPlc_Click(object sender, EventArgs e)
         {
             try
             {
-                MyPlc.Connect(
+                // 使用异步方法，防止WinForm界面卡顿（假死）
+                await MyPlc.Connect(
                       (CpuType)Enum.Parse(typeof(CpuType), cmbPLcType.Text),
                       txtPlcIp.Text,
                       Convert.ToInt16(cmbPlcRack.Text),
